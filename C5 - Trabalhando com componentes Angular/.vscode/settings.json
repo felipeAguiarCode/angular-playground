@@ -1,0 +1,369 @@
+{
+  /**
+   * Controls whether suggestions should be accepted on commit characters.
+   * For example, in JavaScript, the semi-colon (;) can be a commit character that accepts a suggestion and types that character.
+   * Defaults to true.
+   */
+  // "editor.acceptSuggestionOnCommitCharacter": true,
+  /**
+   * Controls whether suggestions should be accepted on Enter, in addition to Tab. Helps to avoid ambiguity between inserting new lines or accepting suggestions.
+   * Can be: 'on', 'off', or 'smart'.
+   * Defaults to 'on'.
+   */
+  // "editor.acceptSuggestionOnEnter": "on",
+  /**
+   * Controls whether the editor should automatically close brackets after the user adds an opening bracket.
+   * Can be: 'always', 'beforeWhitespace', 'languageDefined' or 'never'.
+   * Defaults to 'languageDefined'.
+   */
+  // "editor.autoClosingBrackets": "languageDefined",
+  /**
+   * Controls whether the editor should automatically close quotes after the user adds an opening quote.
+   * Can be: 'always', 'beforeWhitespace', 'languageDefined' or 'never'.
+   * Defaults to 'languageDefined'.
+   */
+  // "editor.autoClosingQuotes": "languageDefined",
+  /**
+   * Controls whether the editor should automatically adjust the indentation
+   * when users type, paste, move or indent lines.
+   * Can be: 'advanced', 'brackets', 'full', 'keep', 'none'.
+   * Defaults to 'full'.
+   */
+  // "editor.autoIndent": "full",
+  /**
+   * Controls whether the editor shows CodeLens.
+   * Defaults to true.
+   */
+  // "editor.codeLens": true,
+  /**
+   * Controls whether the editor should render the inline color decorators and color picker.
+   */
+  // "editor.colorDecorators": true,
+  /**
+   * Enables the custom context menu.
+   * Defaults to true.
+   */
+  // "editor.contextmenu": true,
+  /**
+   * Control the cursor animation style, possible values are 'blink', 'smooth', 'phase', 'expand' and 'solid'.
+   * Defaults to 'blink'.
+   */
+  // "editor.cursorBlinking": "blink",
+  /**
+   * Controls the cursor style.
+   * Can be 'block', 'block-outline', 'line', 'line-thin', 'underline', 'underline-thin'.
+   * Defaults to 'line'.
+   */
+  // "editor.cursorStyle": "line",
+  /**
+   * Controls the width of the cursor when 'editor.cursorStyle' is set to 'line'.
+   */
+  // "editor.cursorWidth": 2,
+  /**
+   * Controls whether 'editor.tabSize' and 'editor.insertSpaces' will be
+   * automatically detected when a file is opened based on the file contents.
+   * Defaults to true.
+   */
+  // "editor.detectIndentation": true,
+  /**
+   * Controls if the editor should allow to move selections via drag and drop.
+   * Defaults to false.
+   */
+  // "editor.dragAndDrop": false,
+  /**
+   * Controls whether copying without a selection copies the current line.
+   */
+  // "editor.emptySelectionClipboard": true,
+  /**
+   * Controls whether the editor has code folding enabled.
+   * Defaults to true.
+   */
+  // "editor.folding": true,
+  /**
+   * Controls the strategy for computing folding ranges.
+   * - 'auto': use a language-specific folding strategy if available,
+   * - 'indentation': use the indentation-based strategy.
+   * Defaults to 'auto'.
+   */
+  // "editor.foldingStrategy": "auto",
+  /**
+   * Controls the font family.
+   */
+  // "editor.fontFamily": "Menlo, Cascadia Code, Consolas, Liberation Mono, monospace",
+  /**
+   * Enables/Disables font ligatures ('calt' and 'liga' font features).
+   * Change this to a string for fine-grained control of the 'font-feature-settings' CSS property.
+   * Defaults to false.
+   */
+  // "editor.fontLigatures": false,
+  /**
+   * Controls the font size in pixels.
+   */
+  "editor.fontSize": 18
+  /**
+   * Controls the font weight. Accepts 'normal' and 'bold' keywords or numbers values between '100' and '900'.
+   */
+  // "editor.fontWeight": "normal",
+  /**
+   * Controls whether the editor should automatically format the pasted content.
+   * Defaults to false.
+   */
+  // "editor.formatOnPaste": false,
+  /**
+   * Format a file on save.
+   * Defaults to true.
+   */
+  // "editor.formatOnSave": true,
+  /**
+   * Controls whether the editor should automatically format the line after typing.
+   * Defaults to false.
+   */
+  // "editor.formatOnType": false,
+  /**
+   * Controls whether the editor should render the vertical glyph margin. Glyph margin is mostly used for debugging.
+   * Defaults false.
+   */
+  // "editor.glyphMargin": false,
+  /**
+   * Controls whether the editor should highlight the active indent guide.
+   * Defaults to true.
+   */
+  // "editor.highlightActiveIndentGuide": true,
+  /**
+   * Configure the editor's hover.
+   */
+  // "editor.hover": { "enabled": true, "delay": 300, "sticky": true },
+  /**
+   * Insert spaces when pressing Tab. This setting is overridden based on the
+   * file contents when 'editor.detectIndentation' is on.
+   */
+  // "editor.insertSpaces": true,
+  /**
+   * Controls the letter spacing in pixels.
+   * Defaults to 0.
+   */
+  // "editor.letterSpacing": 0,
+  /**
+   * Enables the code action lightbulb in the editor.
+   */
+  // "editor.lightbulb": { "enabled": true },
+  /**
+   * The width reserved for line decorations (in px).
+   * Line decorations are placed between line numbers and the editor content.
+   * You can pass in a string in the format floating point followed by "ch". e.g. 1.3ch.
+   * Defaults to 10.
+   */
+  // "editor.lineDecorationsWidth": 10,
+  /**
+   * Controls the line height.
+   * - Use 0 to automatically compute the line height from the font size.
+   * - Values between 0 and 8 will be used as a multiplier with the font size.
+   * - Values greater than or equal to 8 will be used as effective values.
+   */
+  // "editor.lineHeight": 1.5,
+  /**
+   * Controls the display of line numbers. Can be 'on', 'off', 'relative' or 'interval'.
+   * Defaults to 'on'.
+   */
+  // "editor.lineNumbers": "on",
+  /**
+   * Controls the width of line numbers, by reserving horizontal space for rendering at least an amount of digits.
+   * Defaults to 5.
+   */
+  // "editor.lineNumbersMinChars": 5,
+  /**
+   * Controls whether the editor should detect links and make them clickable.
+   * Defaults to true.
+   */
+  // "editor.links": true,
+  /**
+   * Highlight matching brackets. Can be: 'always', 'near', 'never'.
+   * Defaults to 'always'.
+   */
+  // "editor.matchBrackets": "always",
+  /**
+   * Control the behavior and rendering of the minimap.
+   */
+  // "editor.minimap": { "enabled": false },
+  /**
+   * The modifier to be used to add multiple cursors with the mouse.
+   * Can be: 'alt' or 'ctrlCmd'.
+   * Defaults to 'alt'.
+   */
+  // "editor.multiCursorModifier": "alt",
+  /**
+   * Enables a pop-up that shows parameter documentation and type information as you type.
+   */
+  // "editor.parameterHints": { "enabled": true, "cycle": false },
+  /**
+   * Controls whether suggestions should automatically show up while typing.
+   * Defaults to true.
+   */
+  // "editor.quickSuggestions": true,
+  /**
+   * Controls the delay in milliseconds after which quick suggestions will show up.
+   * Defaults to 10 (ms).
+   */
+  // "editor.quickSuggestionsDelay": 10,
+  /**
+   * Controls whether the editor should render control characters.
+   * Defaults to true.
+   */
+  // "editor.renderControlCharacters": true,
+  /**
+   * Controls whether the editor should render indent guides.
+   * Defaults to true.
+   */
+  // "editor.renderIndentGuides": true,
+  /**
+   * Controls how the editor should render the current line highlight.
+   * Can be: 'all', 'gutter', 'line', or 'none'.
+   * Defaults to 'line'.
+   */
+  // "editor.renderLineHighlight": "line",
+  /**
+   * Controls how the editor should render whitespace characters.
+   * Can be: 'all', 'boundary', 'none', 'selection' and 'trailing'.
+   * Defaults to 'selection'.
+   */
+  // "editor.renderWhitespace": "selection",
+  /**
+   * Render vertical rulers after a certain number of monospace characters.
+   * Use multiple values for multiple rulers.
+   * No rulers are drawn if array is empty.
+   */
+  // "editor.rulers": [],
+  /**
+   * Controls the number of extra characters beyond which the editor will scroll horizontally.
+   * Defaults to 4.
+   */
+  // "editor.scrollBeyondLastColumn": 4,
+  /**
+   * Controls whether the editor will scroll beyond the last line.
+   * Defaults to true.
+   */
+  // "editor.scrollBeyondLastLine": true,
+  /**
+   * Controls whether the editor should highlight matches similar to the selection.
+   * Defaults to true.
+   */
+  // "editor.selectionHighlight": true,
+  /**
+   * Should the corresponding line be selected when clicking on the line number?
+   * Defaults to true.
+   */
+  // "editor.selectOnLineNumbers": true,
+  /**
+   * Controls when the folding controls on the gutter are shown.
+   * Can be: 'always' or 'mouseover'.
+   * Defaults to 'mouseover'.
+   */
+  // "editor.showFoldingControls": "mouseover",
+  /**
+   * Controls fading out of unused code.
+   */
+  // "editor.showUnused": true,
+  /**
+   * Controls whether the editor will scroll using an animation.
+   * Defaults to false.
+   */
+  // "editor.smoothScrolling": false,
+  /**
+   * Controls whether snippets are shown with other suggestions and how they are sorted.
+   * Can be 'bottom', 'top', 'inline' or 'none'.
+   */
+  // "editor.snippetSuggestions": "inline",
+  /**
+   * Suggest options.
+   */
+  // "editor.suggest": { "filterGraceful": true, "showWords": false },
+  /**
+   * Controls how suggestions are pre-selected when showing the suggest list.
+   * Can be 'first', 'recentlyUsed' or 'recentlyUsedByPrefix'.
+   */
+  // "editor.suggestSelection": "first",
+  /**
+   * The number of spaces a tab is equal to. This setting is overridden based
+   * on the file contents when 'editor.detectIndentation' is on.
+   */
+  // "editor.tabSize": 2,
+  /**
+   * Inserting and deleting whitespace follows tab stops.
+   * Defaults to true.
+   */
+  // "editor.useTabStops": true,
+  /**
+   * Characters that will be used as word separators when doing word related navigations or operations.
+   * Defaults to "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?"
+   */
+  // "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+  /**
+   * Controls how lines should wrap.
+   * - 'off': Lines will never wrap.
+   * - 'on': Lines will wrap at the viewport width.
+   * - 'bounded': Lines will wrap at the minimum of viewport and 'editor.wordWrapColumn'.
+   * - 'wordWrapColumn': Lines will wrap at 'editor.wordWrapColumn'.
+   * Defaults to 'on'.
+   */
+  // "editor.wordWrap": "on",
+  /**
+   * Controls the wrapping column of the editor when 'editor.wordWrap' is 'wordWrapColumn' or 'bounded'.
+   * Defaults to 80.
+   */
+  // "editor.wordWrapColumn": 80,
+  /**
+   * Controls the indentation of wrapped lines.
+   * Can be: 'none', 'same', 'indent' or 'deepIndent'.
+   * Defaults to 'same'.
+   */
+  // "editor.wrappingIndent": "same",
+  /**
+   * Prettier - Print semicolons at the ends of statements.
+   */
+  // "prettier.semi": true,
+  /**
+   * Prettier - Use single quotes instead of double quotes.
+   */
+  // "prettier.singleQuote": true,
+  /**
+   * Prettier - Specify the number of spaces per indentation-level.
+   */
+  // "prettier.tabWidth": 2,
+  /**
+   * Prettier - Indent lines with tabs instead of spaces.
+   */
+  // "prettier.useTabs": false,
+  /**
+   * Controls whether the terminal cursor blinks.
+   * Defaults to false.
+   */
+  // "terminal.integrated.cursorBlinking": false,
+  /**
+   * Controls the style of terminal cursor.
+   * Can be: 'block' (default), 'line' or 'underline'.
+   */
+  // "terminal.integrated.cursorStyle": "block",
+  /**
+   * Controls the width of the cursor when 'terminal.integrated.cursorStyle' is set to 'line'.
+   * Defaults to 2.
+   */
+  // "terminal.integrated.cursorWidth": 2,
+  /**
+   * Controls the font size in pixels of the terminal.
+   * Defaults to 12.
+   */
+  // "terminal.integrated.fontSize": 12,
+  /**
+   * Controls the line height of the terminal, this number is multiplied by the terminal font size to get the actual line-height in pixels.
+   * Defaults to 1.
+   */
+  // "terminal.integrated.lineHeight": 1,
+  /**
+   * When set, the foreground color of each cell will change to try meet the contrast ratio specified. Example values:
+   * - 1: Do nothing and use the standard theme colors.
+   * - 4.5: WCAG AA compliance (minimum) (default).
+   * - 7: WCAG AAA compliance (enhanced).
+   * - 21: White on black or black on white.
+   */
+  // "terminal.integrated.minimumContrastRatio": 4.5
+}

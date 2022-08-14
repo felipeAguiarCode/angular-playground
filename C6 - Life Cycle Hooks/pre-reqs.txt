@@ -1,0 +1,29 @@
+# Requesitos
+
+- Node & NPM (nodejs.org)
+
+- Visual Studio code (www.code.visualstudio.com/)
+  - Angular Language Service*
+  - Auto Close Tag*
+  - Auto Rename Tag*
+  - Tema (*opcional)
+  - Icones (*opcional)
+  - editorConfig, Prettier, eslint
+
+- Angular
+  - npm install -g @angular/cli@14.1.2
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+

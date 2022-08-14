@@ -1,0 +1,9 @@
+/* Add application styles & imports to this file! */
+h1 {
+  color: yellow;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
