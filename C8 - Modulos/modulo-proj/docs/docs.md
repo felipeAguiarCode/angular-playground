@@ -1,0 +1,9 @@
+```javascript
+  @NgModule({
+    declarations:[],
+    imports:[],
+    exports[],
+    providers:[]
+    bootstrap:[]
+  })
+```
