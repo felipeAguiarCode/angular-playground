@@ -55,16 +55,3 @@ Para acessar o material do Curso 6 sobre Life Cycle Hooks, clique [aqui](https:/
 
 **Curso 6 - Single Page Application com Angular**
 Para acessar o material do Curso 7 sobre Single Page Application com Angular, clique [aqui](github.com/felipeAguiarCode/angular-playground/tree/main/C8%20-%20Modulos).
-
-
-## Contribuições e Dúvidas
-
-Este repositório é destinado aos participantes do Santander Bootcamp 2023. Se você tiver dúvidas sobre os cursos ou quiser contribuir para melhorar os materiais, sinta-se à vontade para entrar em contato com a equipe responsável pelo bootcamp.
-
-## Contato
-
-Para qualquer dúvida relacionada aos cursos ou ao uso deste repositório, entre em contato com a equipe do Santander Bootcamp 2023.
-
-Esperamos que você aproveite ao máximo os cursos oferecidos e tenha uma experiência educacional gratificante!
-
-**Equipe do Santander Bootcamp 2023 - Fullstack Java+Angular**
