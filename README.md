@@ -1,6 +1,5 @@
-# Santander Bootcamp 2023 - Fullstack Java+Angular
 
-Bem-vindo ao repositório do **Santander Bootcamp 2023 - Fullstack Java+Angular**! Este repositório contém conjuntos de pastas, cada uma referente a um curso oferecido no bootcamp. Abaixo você encontrará informações sobre como navegar neste repositório.
+Bem-vindo ao repositório do **Angular-Playground**! Este repositório contém conjuntos de pastas, cada uma referente a um curso oferecido no bootcamp da DIO. Abaixo você encontrará informações sobre como navegar neste repositório.
 
 ## Cursos Oferecidos
 
@@ -33,15 +32,3 @@ Cada pasta com o nome "Curso_X" contém materiais, códigos e recursos relaciona
 2. Dentro da pasta do curso, você encontrará os arquivos e subpastas relevantes para esse curso em particular.
 
 Sinta-se à vontade para navegar pelas pastas, examinar os materiais e utilizar os recursos disponíveis.
-
-## Contribuições e Dúvidas
-
-Este repositório é destinado aos participantes do Santander Bootcamp 2023. Se você tiver dúvidas sobre os cursos ou quiser contribuir para melhorar os materiais, sinta-se à vontade para entrar em contato com a equipe responsável pelo bootcamp.
-
-## Contato
-
-Para qualquer dúvida relacionada aos cursos ou ao uso deste repositório, entre em contato com a equipe do Santander Bootcamp 2023.
-
-Esperamos que você aproveite ao máximo os cursos oferecidos e tenha uma experiência educacional gratificante!
-
-**Equipe do Santander Bootcamp 2023 - Fullstack Java+Angular**
