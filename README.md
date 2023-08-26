@@ -32,3 +32,25 @@ Cada pasta com o nome "Curso_X" contém materiais, códigos e recursos relaciona
 2. Dentro da pasta do curso, você encontrará os arquivos e subpastas relevantes para esse curso em particular.
 
 Sinta-se à vontade para navegar pelas pastas, examinar os materiais e utilizar os recursos disponíveis.
+
+Cada pasta com o nome "Curso_X" contém materiais, códigos e recursos relacionados ao respectivo curso. Para acessar um curso específico, siga estas etapas:
+
+1. Navegue para a pasta correspondente ao curso que deseja explorar.
+2. Dentro da pasta do curso, você encontrará os arquivos e subpastas relevantes para esse curso em particular.
+
+Sinta-se à vontade para navegar pelas pastas, examinar os materiais e utilizar os recursos disponíveis.
+
+**Curso 1 - Web Components**
+Para acessar o material do Curso 1 sobre Web Components, clique [aqui](https://github.com/felipeAguiarCode/angular-playground/tree/main/C1%20-%20Web%20Components).
+
+**Curso 2 - TypeScript para Angular**
+Para acessar o material do Curso 2 sobre TypeScript para Angular, clique [aqui](https://github.com/felipeAguiarCode/angular-playground/tree/main/C2%20-%20Typescript%20para%20Angular).
+
+**Curso 4 - Trabalhando com Componentes Angular**
+Para acessar o material do Curso 5 sobre Trabalhando com Componentes Angular, clique [aqui](https://github.com/felipeAguiarCode/angular-playground/tree/main/C5%20-%20Trabalhando%20com%20componentes%20Angular).
+
+**Curso 5 - Life Cycle Hooks**
+Para acessar o material do Curso 6 sobre Life Cycle Hooks, clique [aqui](https://github.com/felipeAguiarCode/angular-playground/tree/main/C6%20-%20Life%20Cycle%20Hooks).
+
+**Curso 6 - Single Page Application com Angular**
+Para acessar o material do Curso 7 sobre Single Page Application com Angular, clique [aqui](github.com/felipeAguiarCode/angular-playground/tree/main/C8%20-%20Modulos).
