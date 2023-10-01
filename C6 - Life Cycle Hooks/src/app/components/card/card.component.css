@@ -1,0 +1,58 @@
+.card-thumbnail {
+  background-color: #181a1b;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+  font-family: sans-serif;
+  width: 16em;
+  height: 22rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-cover {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.game-name {
+  color: #33a2ff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.game-rating {
+  font-size: 1.2em;
+  margin: 0 0 5px;
+  color: rgb(243, 92, 64);
+  text-align: center;
+  color: rgb(220, 220, 220);
+}
+
+.game-rating > p > span {
+  color: rgb(177, 253, 93);
+}
+
+.list-buttons {
+  width: 14em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list-buttons > span {
+  font-weight: 400;
+  text-align: center;
+  vertical-align: center;
+  color: rgb(232, 230, 227);
+  background-color: rgba(30, 39, 41);
+  padding: 3px 7px;
+  margin: 0.8em 0.3em 0;
+  line-height: 1.5;
+  border-radius: 3px;
+}
