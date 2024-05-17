@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
+## Possible issues
+
+In the lesson `Trabalhando com módulo HTTP`, if you are using a version of Angular higher than v17, you should follow the tutorial in the [official documentation](https://angular.io/guide/http-setup-server-communication).
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
